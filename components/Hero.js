@@ -32,9 +32,6 @@ const Hero = () => {
       }} />
       <h1 style={{ zIndex: 2, marginBottom: '20px' }}>Assalam Fondation</h1>
       <p style={{ zIndex: 2, marginBottom: '20px' }}>Transforming Lives, Building Futures: The assalam foundation's commitment to social development Casablanca anfa </p>
-      <button onClick={handleButtonClick} className="hero-button" style={{ zIndex: 2 }}>
-        About Us
-      </button>
     </div>
   );
 };

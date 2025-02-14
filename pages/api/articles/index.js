@@ -1,4 +1,5 @@
-import { store } from "../../../lib/store"
+import connectDB from "../../../lib/mongodb"
+import Article from "../../../models/Article"
 import multer from "multer"
 import path from "path"
 
@@ -18,22 +19,24 @@ const upload = multer({
   }),
 })
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await connectDB()
+  
   if (req.method === "GET") {
-    const articles = store.getArticles()
+    const articles = await Article.find().sort({ createdAt: -1 })
     res.status(200).json(articles)
   } else if (req.method === "POST") {
-    upload.single("image")(req, res, (err) => {
+    upload.single("image")(req, res, async (err) => {
       if (err) {
         return res.status(500).json({ error: "Error uploading file" })
       }
       const { title, content, tags } = req.body
       const imageName = req.file ? req.file.filename : null
-      const newArticle = store.addArticle({
+      const newArticle = await Article.create({
         title,
         content,
-        image: imageName,
-        tags: tags.split(",").map((tag) => tag.trim()),
+        imageUrl: imageName ? `/uploads/${imageName}` : null,
+        tags: tags.split(",").map((tag) => tag.trim())
       })
       res.status(201).json(newArticle)
     })
@@ -42,4 +45,3 @@ export default function handler(req, res) {
     res.status(405).end(`Method ${req.method} Not Allowed`)
   }
 }
-

@@ -113,7 +113,9 @@ function handler(req, res) {
                 title,
                 content,
                 image: imageName,
-                tags: tags.split(",").map((tag)=>tag.trim())
+                tags: tags.split(",").map((tag)=>tag.trim()),
+                createdAt: new Date().toISOString(),
+                updatedAt: new Date().toISOString()
             });
             res.status(201).json(newArticle);
         });

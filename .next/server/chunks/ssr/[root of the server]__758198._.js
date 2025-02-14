@@ -137,10 +137,12 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$layout$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Layout$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/layout/index.js [ssr] (ecmascript) <export default as Layout>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/typography/index.js [ssr] (ecmascript) <export default as Typography>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/menu/index.js [ssr] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/dropdown/index.js [ssr] (ecmascript) <export default as Dropdown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$DownOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DownOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/DownOutlined.js [ssr] (ecmascript) <export default as DownOutlined>"); // Import social media icons
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/row/index.js [ssr] (ecmascript) <export default as Row>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/col/index.js [ssr] (ecmascript) <export default as Col>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/space/index.js [ssr] (ecmascript) <locals> <export default as Space>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FacebookOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FacebookOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/FacebookOutlined.js [ssr] (ecmascript) <export default as FacebookOutlined>"); // Import social media icons
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FacebookOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FacebookOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/FacebookOutlined.js [ssr] (ecmascript) <export default as FacebookOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$InstagramOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__InstagramOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/InstagramOutlined.js [ssr] (ecmascript) <export default as InstagramOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$YoutubeOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__YoutubeOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/YoutubeOutlined.js [ssr] (ecmascript) <export default as YoutubeOutlined>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LinkedinOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LinkedinOutlined$3e$__ = __turbopack_import__("[project]/node_modules/@ant-design/icons/es/icons/LinkedinOutlined.js [ssr] (ecmascript) <export default as LinkedinOutlined>");
@@ -205,20 +207,141 @@ const App = ({ children, id })=>{
                                 lineNumber: 32,
                                 columnNumber: 11
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
+                                overlay: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/centerHimaya",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Center Himaya"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 37,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-1", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 36,
+                                            columnNumber: 17
+                                        }, void 0),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/FataerAlBaraka",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Fataer Al Baraka"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 40,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-2", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 39,
+                                            columnNumber: 17
+                                        }, void 0),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/Imtiaz",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Imtiaz"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 43,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-3", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 42,
+                                            columnNumber: 17
+                                        }, void 0),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/Kafala",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Kafala"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 46,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-4", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 45,
+                                            columnNumber: 17
+                                        }, void 0),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/NadiAssalam",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Nadi Assalam"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 49,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-5", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 48,
+                                            columnNumber: 17
+                                        }, void 0),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                href: "/projects/RayhanatAssalam",
+                                                style: {
+                                                    color: "blue"
+                                                },
+                                                children: "Rayhanat Assalam"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 52,
+                                                columnNumber: 19
+                                            }, void 0)
+                                        }, "2-6", false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 51,
+                                            columnNumber: 17
+                                        }, void 0)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Layout.js",
+                                    lineNumber: 35,
+                                    columnNumber: 15
+                                }, void 0),
+                                trigger: [
+                                    'hover'
+                                ],
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "/projects",
+                                    className: "ant-dropdown-link",
                                     style: {
                                         color: "blue",
                                         fontWeight: 'bold'
                                     },
-                                    children: "Projects"
-                                }, void 0, false, {
+                                    href: "/projects",
+                                    children: [
+                                        "Projects ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$DownOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DownOutlined$3e$__["DownOutlined"], {}, void 0, false, {
+                                            fileName: "[project]/components/Layout.js",
+                                            lineNumber: 59,
+                                            columnNumber: 24
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 33,
-                                    columnNumber: 30
+                                    lineNumber: 58,
+                                    columnNumber: 13
                                 }, this)
-                            }, "2", false, {
+                            }, void 0, false, {
                                 fileName: "[project]/components/Layout.js",
                                 lineNumber: 33,
                                 columnNumber: 11
@@ -233,12 +356,12 @@ const App = ({ children, id })=>{
                                     children: "News"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 34,
+                                    lineNumber: 62,
                                     columnNumber: 30
                                 }, this)
                             }, "3", false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 34,
+                                lineNumber: 62,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
@@ -251,12 +374,12 @@ const App = ({ children, id })=>{
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 35,
+                                    lineNumber: 63,
                                     columnNumber: 30
                                 }, this)
                             }, "4", false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 35,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -285,12 +408,12 @@ const App = ({ children, id })=>{
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/components/Layout.js",
-                    lineNumber: 43,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Layout.js",
-                lineNumber: 38,
+                lineNumber: 66,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Footer, {
@@ -311,7 +434,7 @@ const App = ({ children, id })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 62,
+                        lineNumber: 90,
                         columnNumber: 9
                     }, this),
                     " ",
@@ -330,7 +453,7 @@ const App = ({ children, id })=>{
                                         children: "Links"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 65,
+                                        lineNumber: 93,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
@@ -344,7 +467,7 @@ const App = ({ children, id })=>{
                                                 children: "About Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 67,
+                                                lineNumber: 95,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -355,7 +478,7 @@ const App = ({ children, id })=>{
                                                 children: "Projects"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 68,
+                                                lineNumber: 96,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -366,7 +489,7 @@ const App = ({ children, id })=>{
                                                 children: "News"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 69,
+                                                lineNumber: 97,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -377,19 +500,19 @@ const App = ({ children, id })=>{
                                                 children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 70,
+                                                lineNumber: 98,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 66,
+                                        lineNumber: 94,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 64,
+                                lineNumber: 92,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -403,7 +526,7 @@ const App = ({ children, id })=>{
                                         children: "Infos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 74,
+                                        lineNumber: 102,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -413,7 +536,7 @@ const App = ({ children, id })=>{
                                         children: "Address: [Your address]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 75,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -423,7 +546,7 @@ const App = ({ children, id })=>{
                                         children: "Phone: [Your phone number]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 76,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -433,13 +556,13 @@ const App = ({ children, id })=>{
                                         children: "Email: [Your email]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 77,
+                                        lineNumber: 105,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 73,
+                                lineNumber: 101,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
@@ -453,116 +576,132 @@ const App = ({ children, id })=>{
                                         children: "Social Media"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 80,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
-                                        size: "large",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                        className: "flex flex-wrap gap-4 justify-center",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                                href: "https://facebook.com",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FacebookOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FacebookOutlined$3e$__["FacebookOutlined"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-[45%] sm:w-auto text-center",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "https://facebook.com",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$FacebookOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__FacebookOutlined$3e$__["FacebookOutlined"], {
                                                         style: {
                                                             fontSize: '24px',
                                                             color: '#3b5998'
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 83,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    " "
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 112,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 111,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 82,
+                                                lineNumber: 110,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                                href: "https://instagram.com",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$InstagramOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__InstagramOutlined$3e$__["InstagramOutlined"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-[45%] sm:w-auto text-center",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "https://instagram.com",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$InstagramOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__InstagramOutlined$3e$__["InstagramOutlined"], {
                                                         style: {
                                                             fontSize: '24px',
                                                             color: '#c32aa3'
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 86,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    " "
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 117,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 116,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 85,
+                                                lineNumber: 115,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                                href: "https://youtube.com",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$YoutubeOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__YoutubeOutlined$3e$__["YoutubeOutlined"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-[45%] sm:w-auto text-center",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "https://youtube.com",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$YoutubeOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__YoutubeOutlined$3e$__["YoutubeOutlined"], {
                                                         style: {
                                                             fontSize: '24px',
                                                             color: '#ff0000'
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 89,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    " "
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 122,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 121,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 88,
+                                                lineNumber: 120,
                                                 columnNumber: 15
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                                href: "https://linkedin.com",
-                                                target: "_blank",
-                                                rel: "noopener noreferrer",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LinkedinOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LinkedinOutlined$3e$__["LinkedinOutlined"], {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
+                                                className: "w-[45%] sm:w-auto text-center",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "https://linkedin.com",
+                                                    target: "_blank",
+                                                    rel: "noopener noreferrer",
+                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$ant$2d$design$2f$icons$2f$es$2f$icons$2f$LinkedinOutlined$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LinkedinOutlined$3e$__["LinkedinOutlined"], {
                                                         style: {
                                                             fontSize: '24px',
                                                             color: '#0077b5'
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 92,
-                                                        columnNumber: 17
-                                                    }, this),
-                                                    " "
-                                                ]
-                                            }, void 0, true, {
+                                                        lineNumber: 127,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 126,
+                                                    columnNumber: 17
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 91,
+                                                lineNumber: 125,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 81,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 79,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 63,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -588,30 +727,31 @@ const App = ({ children, id })=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 98,
+                                lineNumber: 134,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                 style: {
                                     fontSize: '16px'
                                 },
+                                className: "hidden md:flex ",
                                 children: "Created by Quayssi"
                             }, void 0, false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 99,
+                                lineNumber: 135,
                                 columnNumber: 11
                             }, this),
                             " "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 97,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Layout.js",
-                lineNumber: 54,
+                lineNumber: 82,
                 columnNumber: 7
             }, this)
         ]
@@ -1260,6 +1400,7 @@ const NewsPage = ()=>{
                 }
                 const data = await response.json();
                 setNewsData(data);
+                console.log(data);
             } catch (err) {
                 setError(err.message);
             } finally{
@@ -1274,7 +1415,7 @@ const NewsPage = ()=>{
             children: "Loading articles..."
         }, void 0, false, {
             fileName: "[project]/components/News.js",
-            lineNumber: 35,
+            lineNumber: 36,
             columnNumber: 12
         }, this);
     }
@@ -1287,7 +1428,7 @@ const NewsPage = ()=>{
             ]
         }, void 0, true, {
             fileName: "[project]/components/News.js",
-            lineNumber: 39,
+            lineNumber: 40,
             columnNumber: 12
         }, this);
     }
@@ -1302,7 +1443,7 @@ const NewsPage = ()=>{
                         children: "Latest News and Updates"
                     }, void 0, false, {
                         fileName: "[project]/components/News.js",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1310,13 +1451,13 @@ const NewsPage = ()=>{
                         children: "Stay up-to-date with our latest projects and initiatives."
                     }, void 0, false, {
                         fileName: "[project]/components/News.js",
-                        lineNumber: 47,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/News.js",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1327,7 +1468,7 @@ const NewsPage = ()=>{
                         children: "All News"
                     }, void 0, false, {
                         fileName: "[project]/components/News.js",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1336,47 +1477,54 @@ const NewsPage = ()=>{
                                 hoverable: true,
                                 cover: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                                     alt: "example",
-                                    src: news.image ? `/uploads/${news.image}` : '/default-news.jpg'
+                                    src: news.imageUrl ? `${news.imageUrl}` : '/default-news.jpg'
                                 }, void 0, false, {
                                     fileName: "[project]/components/News.js",
-                                    lineNumber: 58,
+                                    lineNumber: 59,
                                     columnNumber: 22
                                 }, void 0),
                                 className: "shadow-lg rounded-lg",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Meta, {
                                         title: news.title,
-                                        description: `${news.date} | ${news.description}`
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/News.js",
-                                        lineNumber: 61,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
-                                        href: `/news/${news.id}`,
-                                        className: "mt-4",
-                                        type: "primary",
-                                        children: "Read More"
+                                        description: `${new Date(news.createdAt).toLocaleDateString()} | ${news.content}`
                                     }, void 0, false, {
                                         fileName: "[project]/components/News.js",
                                         lineNumber: 62,
                                         columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                        href: `/news/${news._id}`,
+                                        passHref: true,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
+                                            className: "mt-4",
+                                            type: "primary",
+                                            children: "Read More"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/News.js",
+                                            lineNumber: 64,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/News.js",
+                                        lineNumber: 63,
+                                        columnNumber: 15
                                     }, this)
                                 ]
-                            }, news.id, true, {
+                            }, news._id, true, {
                                 fileName: "[project]/components/News.js",
-                                lineNumber: 55,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/News.js",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/News.js",
-                lineNumber: 51,
+                lineNumber: 52,
                 columnNumber: 7
             }, this),
             newsData.length > select && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1387,18 +1535,18 @@ const NewsPage = ()=>{
                     children: "Load More"
                 }, void 0, false, {
                     fileName: "[project]/components/News.js",
-                    lineNumber: 71,
+                    lineNumber: 74,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/News.js",
-                lineNumber: 70,
+                lineNumber: 73,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/News.js",
-        lineNumber: 43,
+        lineNumber: 44,
         columnNumber: 5
     }, this);
 };

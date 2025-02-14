@@ -14,9 +14,7 @@ export default function Hero() {
           <Paragraph className="text-lg text-blue-800 mb-6">
             Supporting brilliant students from disadvantaged backgrounds to achieve their full potential.
           </Paragraph>
-          <Button type="primary" size="large" className="bg-green-500 hover:bg-green-600 border-none">
-            Learn More
-          </Button>
+
         </div>
         <div className="md:w-1/2">
           <Image

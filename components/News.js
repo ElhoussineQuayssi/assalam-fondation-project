@@ -21,6 +21,7 @@ const NewsPage = () => {
         }
         const data = await response.json();
         setNewsData(data);
+        console.log(data)
       } catch (err) {
         setError(err.message);
       } finally {
@@ -53,13 +54,15 @@ const NewsPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {newsData.slice(0, select).map(news => (
             <Card 
-              key={news.id}
+              key={news._id}
               hoverable
-              cover={<img alt="example" src={news.image ? `/uploads/${news.image}` : '/default-news.jpg'} />}
+              cover={<img alt="example" src={news.imageUrl ? `${news.imageUrl}` : '/default-news.jpg'} />}
               className="shadow-lg rounded-lg"
             >
-              <Meta title={news.title} description={`${news.date} | ${news.description}`} />
-              <Button href={`/news/${news.id}`} className="mt-4" type="primary">Read More</Button>
+              <Meta title={news.title} description={`${new Date(news.createdAt).toLocaleDateString()} | ${news.content}`} />
+              <Link href={`/news/${news._id}`} passHref>
+                <Button className="mt-4" type="primary">Read More</Button>
+              </Link>
             </Card>
           ))}
         </div>

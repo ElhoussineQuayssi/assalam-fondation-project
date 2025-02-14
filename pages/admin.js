@@ -3,6 +3,8 @@
 import { useState, useEffect } from "react"
 import { Table, Button, Modal, Form, Input, Upload, message, Dropdown, Menu } from "antd"
 import { PlusOutlined, EditOutlined, DeleteOutlined, ShareAltOutlined } from "@ant-design/icons"
+import { getSession } from "next-auth/react"
+import { useRouter } from "next/router"
 
 export default function AdminDashboard() {
   const [articles, setArticles] = useState([])
@@ -10,6 +12,18 @@ export default function AdminDashboard() {
   const [form] = Form.useForm()
   const [editingArticle, setEditingArticle] = useState(null)
   const [fileList, setFileList] = useState([])
+  const router = useRouter()
+
+  // Check authentication on component mount
+  useEffect(() => {
+    const checkAuth = async () => {
+      const session = await getSession()
+      if (!session) {
+        router.push("/login")
+      }
+    }
+    checkAuth()
+  }, [router])
 
   useEffect(() => {
     fetchArticles()
@@ -219,4 +233,3 @@ export default function AdminDashboard() {
     </div>
   )
 }
-

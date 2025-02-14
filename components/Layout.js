@@ -1,5 +1,5 @@
-import { Layout, Menu, Row, Col, Space, Typography } from 'antd';
-import { FacebookOutlined, InstagramOutlined, YoutubeOutlined, LinkedinOutlined } from '@ant-design/icons'; // Import social media icons
+import { Layout, Menu, Row, Col, Space, Typography, Dropdown } from 'antd';
+import { FacebookOutlined, InstagramOutlined, YoutubeOutlined, LinkedinOutlined, DownOutlined } from '@ant-design/icons'; // Import social media icons
 const { Header, Content, Footer } = Layout;
 const { Title } = Typography;
 
@@ -30,15 +30,41 @@ const App = ({ children, id }) => {
           }}
         >
           <Menu.Item key="1"><a href="/aboutus" style={{ color: "blue" , fontWeight: 'bold' }}>About Us</a></Menu.Item>
-          <Menu.Item key="2"><a href="/projects" style={{ color: "blue" , fontWeight: 'bold' }}>Projects</a></Menu.Item>
+          <Dropdown 
+            overlay={
+              <Menu>
+                <Menu.Item key="2-1">
+                  <a href="/projects/centerHimaya" style={{ color: "blue" }}>Center Himaya</a>
+                </Menu.Item>
+                <Menu.Item key="2-2">
+                  <a href="/projects/FataerAlBaraka" style={{ color: "blue" }}>Fataer Al Baraka</a>
+                </Menu.Item>
+                <Menu.Item key="2-3">
+                  <a href="/projects/Imtiaz" style={{ color: "blue" }}>Imtiaz</a>
+                </Menu.Item>
+                <Menu.Item key="2-4">
+                  <a href="/projects/Kafala" style={{ color: "blue" }}>Kafala</a>
+                </Menu.Item>
+                <Menu.Item key="2-5">
+                  <a href="/projects/NadiAssalam" style={{ color: "blue" }}>Nadi Assalam</a>
+                </Menu.Item>
+                <Menu.Item key="2-6">
+                  <a href="/projects/RayhanatAssalam" style={{ color: "blue" }}>Rayhanat Assalam</a>
+                </Menu.Item>
+              </Menu>
+            }
+            trigger={['hover']}
+          >
+            <a className="ant-dropdown-link" style={{ color: "blue", fontWeight: 'bold' }} href="/projects">
+              Projects <DownOutlined />
+            </a>
+          </Dropdown>
           <Menu.Item key="3"><a href="/news" style={{ color: "blue" , fontWeight: 'bold' }}>News</a></Menu.Item>
           <Menu.Item key="4"><a href="/contact" style={{ color: "blue" , fontWeight: 'bold' }}>Contact</a></Menu.Item>
         </Menu>
       </Header>
       <Content
-        style={{
-          padding: '0 ',
-        }}
+        className='p-4 md:p-0'
       >
         <div
           style={{

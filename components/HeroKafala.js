@@ -15,9 +15,7 @@ export default function Hero() {
             Join us in providing comprehensive support to orphans within their families, ensuring their well-being and
             future.
           </Paragraph>
-          <Button type="primary" size="large" className="bg-green-500 hover:bg-green-600 border-none">
-            Sponsor a Child
-          </Button>
+
         </div>
         <div className="md:w-1/2">
           <Image

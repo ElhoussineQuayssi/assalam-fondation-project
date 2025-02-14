@@ -15,9 +15,7 @@ export default function Hero() {
             A national, independent foundation with a social, solidarity, and charitable vocation, based on
             volunteerism, founded in 1992.
           </Paragraph>
-          <Button type="primary" size="large" className="bg-green-500 hover:bg-green-600 border-none">
-            Learn More
-          </Button>
+
         </div>
         <div className="md:w-1/2">
           <Image

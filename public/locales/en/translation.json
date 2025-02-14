@@ -1,0 +1,33 @@
+{
+  "header": {
+    "about": "About Us",
+    "projects": "Projects",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "footer": {
+    "sections": {
+      "links": "Links",
+      "info": "Info",
+      "social": "Social Media"
+    },
+    "links": {
+      "about": "About Us",
+      "projects": "Projects",
+      "news": "News",
+      "contact": "Contact"
+    },
+    "info": {
+      "address": "[Your address]",
+      "phone": "[Your phone number]",
+      "email": "[Your email]"
+    },
+    "copyright": "© {year} Fondation Assalam. All rights reserved.",
+    "creator": "Created by Quayssi"
+  },
+  "languages": {
+    "en": "English",
+    "ar": "العربية",
+    "fr": "Français"
+  }
+}

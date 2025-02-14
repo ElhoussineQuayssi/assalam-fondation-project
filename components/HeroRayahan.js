@@ -15,9 +15,7 @@ export default function Hero() {
             A safe and inspiring educational environment for preschool children, focusing on social, cognitive, and
             emotional development through directed activities and play.
           </Paragraph>
-          <Button type="primary" size="large" className="bg-green-500 hover:bg-green-600 border-none">
-            Learn More
-          </Button>
+
         </div>
         <div className="md:w-1/2">
           <Image

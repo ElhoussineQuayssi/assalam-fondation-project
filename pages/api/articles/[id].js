@@ -1,4 +1,5 @@
-import { store } from "../../../lib/store"
+import connectDB from "../../../lib/mongodb"
+import Article from "../../../models/Article"
 import multer from "multer"
 import path from "path"
 import fs from "fs"
@@ -19,51 +20,73 @@ const upload = multer({
   }),
 })
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await connectDB()
   const { id } = req.query
-  const articleId = Number.parseInt(id)
 
-  if (req.method === "GET") {
-    const article = store.getArticle(articleId)
-    if (article) {
-      res.status(200).json(article)
-    } else {
-      res.status(404).json({ error: "Article not found" })
-    }
-  } else if (req.method === "PUT") {
-    upload.single("image")(req, res, (err) => {
-      if (err) {
-        return res.status(500).json({ error: "Error uploading file" })
-      }
-      const { title, content, tags } = req.body
-      const imageName = req.file ? req.file.filename : undefined
-      const updatedArticle = store.updateArticle(articleId, {
-        title,
-        content,
-        ...(imageName && { image: imageName }),
-        tags: tags.split(",").map((tag) => tag.trim()),
-      })
-      if (updatedArticle) {
-        res.status(200).json(updatedArticle)
+  try {
+    if (req.method === "GET") {
+      const article = await Article.findById(id)
+      if (article) {
+        res.status(200).json(article)
       } else {
         res.status(404).json({ error: "Article not found" })
       }
-    })
-  } else if (req.method === "DELETE") {
-    const article = store.getArticle(articleId)
-    if (article && article.image) {
-      const imagePath = path.join(process.cwd(), "public", "uploads", article.image)
-      fs.unlinkSync(imagePath)
-    }
-    const deleted = store.deleteArticle(articleId)
-    if (deleted) {
-      res.status(200).json({ message: "Article deleted successfully" })
+    } else if (req.method === "PUT") {
+      upload.single("image")(req, res, async (err) => {
+        if (err) {
+          return res.status(500).json({ error: "Error uploading file" })
+        }
+        const { title, content, tags } = req.body
+        const imageName = req.file ? req.file.filename : undefined
+        
+        const updateData = {
+          title,
+          content,
+          tags: tags.split(",").map((tag) => tag.trim()),
+          updatedAt: new Date()
+        }
+        
+        if (imageName) {
+          // Delete old image if exists
+          const existingArticle = await Article.findById(id)
+          if (existingArticle?.imageUrl) {
+            const oldImagePath = path.join(process.cwd(), "public", existingArticle.imageUrl.replace("/uploads/", ""))
+            fs.unlinkSync(oldImagePath)
+          }
+          updateData.imageUrl = `/uploads/${imageName}`
+        }
+
+        const updatedArticle = await Article.findByIdAndUpdate(
+          id,
+          updateData,
+          { new: true }
+        )
+        
+        if (updatedArticle) {
+          res.status(200).json(updatedArticle)
+        } else {
+          res.status(404).json({ error: "Article not found" })
+        }
+      })
+    } else if (req.method === "DELETE") {
+      const article = await Article.findByIdAndDelete(id)
+      if (article) {
+        // Delete associated image if exists
+        if (article.imageUrl) {
+          const imagePath = path.join(process.cwd(), "public", article.imageUrl.replace("/uploads/", ""))
+          fs.unlinkSync(imagePath)
+        }
+        res.status(200).json({ message: "Article deleted successfully" })
+      } else {
+        res.status(404).json({ error: "Article not found" })
+      }
     } else {
-      res.status(404).json({ error: "Article not found" })
+      res.setHeader("Allow", ["GET", "PUT", "DELETE"])
+      res.status(405).end(`Method ${req.method} Not Allowed`)
     }
-  } else {
-    res.setHeader("Allow", ["GET", "PUT", "DELETE"])
-    res.status(405).end(`Method ${req.method} Not Allowed`)
+  } catch (error) {
+    console.error("Error in article handler:", error)
+    res.status(500).json({ error: "Internal server error" })
   }
 }
-
