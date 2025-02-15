@@ -1,40 +1,39 @@
 import { Typography, Card } from "antd"
+import { useTranslation } from 'next-i18next'
 
 const { Title, Paragraph } = Typography
 
 export default function About() {
+  const { t } = useTranslation('common');
   return (
     <div id="about" className="py-20 bg-green-50">
       <div className="container mx-auto">
         <Title level={2} className="text-3xl font-bold text-green-600 mb-10 text-center">
-          About Rihana As-Salam
+          {t('aboutRayhana.title')}
         </Title>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Foundation
+              {t('aboutRayhana.foundationTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              Inaugurated in 2013 in partnership with the Regional Directorate of Anfa at El Bachiri School, affiliated
-              with the As-Salam Foundation for Social Development, Casablanca-Anfa section.
+              {t('aboutRayhana.foundationText')}
             </Paragraph>
           </Card>
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Approach
+              {t('aboutRayhana.approachTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              We focus on developing children's social, cognitive, and emotional skills through directed activities and
-              play in a safe and inspiring educational environment.
+              {t('aboutRayhana.approachText')}
             </Paragraph>
           </Card>
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Capacity
+              {t('aboutRayhana.capacityTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              The preschool has two equipped rooms to welcome children, providing a comfortable and stimulating learning
-              environment for our young learners.
+              {t('aboutRayhana.capacityText')}
             </Paragraph>
           </Card>
         </div>
@@ -42,4 +41,3 @@ export default function About() {
     </div>
   )
 }
-

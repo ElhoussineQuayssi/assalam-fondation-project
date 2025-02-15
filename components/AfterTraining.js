@@ -1,33 +1,35 @@
 import { Typography, Card, Row, Col } from "antd"
+import { useTranslation } from 'react-i18next'
 
 const { Title, Paragraph } = Typography
 
 const opportunities = [
-  { title: "Cooperatives", description: "Group together to produce and sell artisanal and modern creations" },
+  { titleKey: "afterTraining.opportunities.cooperatives.title", descriptionKey: "afterTraining.opportunities.cooperatives.description" },
   {
-    title: "Home-based Projects",
-    description: "Launch their own projects from home, offering tailored sewing services to their community",
+    titleKey: "afterTraining.opportunities.homeProjects.title", 
+    descriptionKey: "afterTraining.opportunities.homeProjects.description",
   },
 ]
 
 export default function AfterTraining() {
+  const { t } = useTranslation()
   return (
     <div className="py-20 bg-green-50">
       <div className="container mx-auto">
         <Title level={2} className="text-3xl font-bold text-green-600 mb-10 text-center">
-          After Training: A Springboard to Autonomy
+          {t('afterTraining.title')}
         </Title>
         <Paragraph className="text-lg text-green-800 mb-6 text-center">
-          With diploma in hand, women trained by Nadi Assalam can:
+          {t('afterTraining.description')}
         </Paragraph>
         <Row gutter={[16, 16]} justify="center">
           {opportunities.map((opportunity, index) => (
             <Col xs={24} md={12} key={index}>
               <Card className="h-full shadow-lg">
                 <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-                  {opportunity.title}
+                  {t(opportunity.titleKey)}
                 </Title>
-                <Paragraph className="text-green-800">{opportunity.description}</Paragraph>
+                <Paragraph className="text-green-800">{t(opportunity.descriptionKey)}</Paragraph>
               </Card>
             </Col>
           ))}
@@ -36,4 +38,3 @@ export default function AfterTraining() {
     </div>
   )
 }
-

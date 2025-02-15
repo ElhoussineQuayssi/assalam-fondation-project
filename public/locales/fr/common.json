@@ -1,4 +1,76 @@
 {
   "welcome": "Bienvenue",
-  "description": "Ceci est une description d'exemple en français."
+  "description": "Ceci est une description d'exemple en français.",
+  "aboutUs": {
+    "title": "À propos de nous",
+    "welcomeMessage": "Bienvenue à la Fondation Assalam! Nous nous engageons à avoir un impact positif dans notre communauté à travers diverses initiatives et programmes. Notre mission est d'autonomiser les individus et de favoriser un sentiment d'appartenance et de soutien.",
+    "missionStatement": "Nous croyons au pouvoir de la collaboration et nous nous efforçons de travailler aux côtés des membres de la communauté pour créer des solutions durables qui répondent aux besoins de notre société."
+  },
+  "aboutBaraka": {
+    "title": "À propos de Fataer Al Baraka",
+    "purposeTitle": "Notre objectif",
+    "purposeText": "Fataer Al Baraka est un centre de formation dédié à l'enseignement de la pâtisserie and de la production de gâteaux marocains, servant de tremplin vers l'autonomie et l'épanouissement personnel pour les femmes en situation précaire.",
+    "approachTitle": "Notre approche",
+    "approachText": "Nous honorons la tradition culinaire marocaine en permettant aux femmes de transformer leur passion pour la pâtisserie en une véritable opportunité de life, en particulier pour les veuves et les femmes vulnérables.",
+    "impactTitle": "Notre impact",
+    "impactText": "À travers notre programme, nous luttons contre la précarité en offrant aux femmes des opportunités professionnelles concrètes et en renforçant l'esprit de solidarité au sein des communautés locales."
+  },
+  "aboutCenter": {
+    "title": "À propos du Centre Himaya",
+    "foundationTitle": "Notre fondation",
+    "foundationText": "Le Centre Himaya fait partie de la Fondation Al Salam pour le développement social, avec 36 sections réparties dans plusieurs villes du Royaume du Maroc.",
+    "approachTitle": "Notre approche",
+    "approachText": "Nous nous distinguons par notre approche bienveillante envers les femmes et les enfants en situation difficile, en nous efforçant de surmonter tous les obstacles qui pourraient entraver l'autonomisation socio-économique des femmes et des enfants.",
+    "achievementTitle": "Notre réalisation",
+    "achievementText": "Notre parcours a été couronné par l'ouverture d'un centre de soutien multidisciplinaire pour les femmes et les enfants en situation difficile, en partenariat avec le Ministère de la Solidarité, de la Femme, de la Famille et le Département Provincial de Casablanca Anfa."
+  },
+  "aboutImtiaz": {
+    "title": "À propos du projet Imtiaz",
+    "missionTitle": "Notre mission",
+    "missionText": "Soutenir and autonomiser les étudiants brillants issus de milieux défavorisés, en les guidant vers l'excellence académique et la réussite professionnelle.",
+    "visionTitle": "Notre vision",
+    "visionText": "Créer une génération de leaders qui sont académiquement excellents, moralement intègres et socialement responsables.",
+    "valuesTitle": "Nos valeurs",
+    "valuesText": "Excellence, Intégrité, Autonomisation, Responsabilité sociale et Apprentissage continu."
+  },
+  "aboutNadi": {
+    "title": "À propos de Nadi Assalam",
+    "purposeTitle": "Notre objectif",
+    "purposeText": "Nadi Assalam est un centre de formation dédié à l'enseignement de la couture traditionnelle et moderne, conçu pour donner de l'espoir et des opportunités aux veuves and aux femmes en situation précaire.",
+    "approachTitle": "Notre approche",
+    "approachText": "Nous offrons plus qu'une simple formation : nous permettons à ces femmes de se réinventer, de retrouver leur autonomie économique et de devenir actrices de leur propre avenir.",
+    "impactTitle": "Notre impact",
+    "impactText": "À travers notre programme, nous luttons contre la précarité en offrant aux femmes des opportunités de revenus concrets and en renforçant la solidarité au sein des communautés."
+  },
+  "aboutRayhana": {
+    "title": "À propos de Rihana As-Salam",
+    "foundationTitle": "Notre fondation",
+    "foundationText": "Inauguré en 2013 en partenariat avec la Direction Régionale d'Anfa à l'école El Bachiri, affilié à la Fondation As-Salam pour le Développement Social, section Casablanca-Anfa.",
+    "approachTitle": "Notre approche",
+    "approachText": "Nous nous concentrons sur le développement des compétences sociales, cognitives et émotionnelles des enfants à travers des activités dirigées and des jeux dans un environnement éducatif sûr et inspirant.",
+    "capacityTitle": "Notre capacité",
+    "capacityText": "La maternelle dispose de deux salles équipées pour accueillir les enfants, offrant un environnement d'apprentissage confortable et stimulant pour nos jeunes apprenants."
+  },
+  "activitiesRayhana": {
+    "title": "Nos activités",
+    "educationalTitle": "Activités éducatives",
+    "educationalItem1": "Apprentissage des lettres, chiffres et couleurs",
+    "educationalItem2": "Jeux éducatifs pour stimuler la pensée critique",
+    "educationalItem3": "Contes pour améliorer l'écoute et la concentration",
+    "physicalTitle": "Activités physiques",
+    "physicalItem1": "Jeux de groupe pour renforcer la coopération",
+    "physicalItem2": "Exercices physiques pour améliorer la coordination",
+    "socialTitle": "Activités sociales et émotionnelles",
+    "socialItem1": "Compétences de communication avec les pairs",
+    "socialItem2": "Sessions éducatives sur les valeurs comme l'amitié et le respect",
+    "socialItem3": "Exercices de résolution de problèmes individuels et de groupe",
+    "creativeTitle": "Activités créatives et artistiques",
+    "creativeItem1": "Dessin et coloriage",
+    "creativeItem2": "Bricolage avec des matériaux simples et sûrs",
+    "creativeItem3": "Activités musicales, danse et théâtre"
+  }
+
+
+
+
 }

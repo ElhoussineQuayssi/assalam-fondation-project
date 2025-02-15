@@ -1,40 +1,39 @@
 import { Typography, Card } from "antd"
+import { useTranslation } from 'next-i18next'
 
 const { Title, Paragraph } = Typography
 
 export default function About() {
+  const { t } = useTranslation('common');
   return (
     <div id="about" className="py-20 bg-green-50">
       <div className="container mx-auto">
         <Title level={2} className="text-3xl font-bold text-green-600 mb-10 text-center">
-          About Nadi Assalam
+          {t('aboutNadi.title')}
         </Title>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Purpose
+              {t('aboutNadi.purposeTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              Nadi Assalam is a training center dedicated to teaching traditional and modern sewing, designed to give
-              hope and opportunities to widows and women in precarious situations.
+              {t('aboutNadi.purposeText')}
             </Paragraph>
           </Card>
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Approach
+              {t('aboutNadi.approachTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              We offer more than just training: we enable these women to reinvent themselves, regain economic autonomy,
-              and become actors of their own future.
+              {t('aboutNadi.approachText')}
             </Paragraph>
           </Card>
           <Card className="shadow-lg">
             <Title level={3} className="text-xl font-semibold text-green-600 mb-4">
-              Our Impact
+              {t('aboutNadi.impactTitle')}
             </Title>
             <Paragraph className="text-green-800">
-              Through our program, we fight against precariousness by offering women concrete income opportunities and
-              strengthening solidarity within communities.
+              {t('aboutNadi.impactText')}
             </Paragraph>
           </Card>
         </div>
@@ -42,4 +41,3 @@ export default function About() {
     </div>
   )
 }
-
