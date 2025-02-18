@@ -4,6 +4,5 @@
   "/": "pages/index.js",
   "/_error": "pages/_error.js",
   "/api/articles": "pages/api/articles.js",
-  "/aboutus": "pages/aboutus.js",
-  "/projects": "pages/projects.js"
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
 }

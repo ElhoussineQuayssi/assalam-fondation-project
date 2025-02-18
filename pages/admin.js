@@ -3,8 +3,21 @@
 import { useState, useEffect } from "react"
 import { Table, Button, Modal, Form, Input, Upload, message, Dropdown, Menu } from "antd"
 import { PlusOutlined, EditOutlined, DeleteOutlined, ShareAltOutlined } from "@ant-design/icons"
+import { useSession, signOut } from "next-auth/react"
+import { useRouter } from "next/navigation"
 
 export default function AdminDashboard() {
+  const { data: session, status } = useSession()
+  const router = useRouter()
+
+  if (status === "loading") {
+    return <div>Loading...</div>
+  }
+
+  if (!session) {
+    router.push("/auth/login")
+    return null
+  }
   const [articles, setArticles] = useState([])
   const [isModalVisible, setIsModalVisible] = useState(false)
   const [form] = Form.useForm()
@@ -188,7 +201,12 @@ export default function AdminDashboard() {
 
   return (
     <div style={{ padding: "20px" }}>
-      <h1>Admin Dashboard</h1>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <h1>Admin Dashboard</h1>
+        <Button type="primary" danger onClick={() => signOut()}>
+          Logout
+        </Button>
+      </div>
       <Button icon={<PlusOutlined />} onClick={() => showModal()} style={{ marginBottom: "20px" }}>
         Add Article
       </Button>
@@ -219,4 +237,3 @@ export default function AdminDashboard() {
     </div>
   )
 }
-
