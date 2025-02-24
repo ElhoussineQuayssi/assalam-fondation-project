@@ -4,5 +4,12 @@
   "/": "pages/index.js",
   "/_error": "pages/_error.js",
   "/api/articles": "pages/api/articles.js",
-  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js"
+  "/api/auth/[...nextauth]": "pages/api/auth/[...nextauth].js",
+  "/aboutus": "pages/aboutus.js",
+  "/projects/Kafala": "pages/projects/Kafala.js",
+  "/projects/NadiAssalam": "pages/projects/NadiAssalam.js",
+  "/news": "pages/news.js",
+  "/contact": "pages/contact.js",
+  "/admin": "pages/admin.js",
+  "/auth/login": "pages/auth/login.js"
 }

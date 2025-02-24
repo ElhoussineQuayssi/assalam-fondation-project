@@ -1,9 +1,10 @@
 "use client"
 
-import { Collapse } from "antd"
+import { Collapse, Carousel } from "antd"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBook, faPencil, faGraduationCap, faBrain } from "@fortawesome/free-solid-svg-icons"
-import App from "@/components/Layout"
+import App from '@/components/Layout'
+import { useState } from "react"
 
 export default function AboutUs() {
   const { Panel } = Collapse
@@ -24,17 +25,17 @@ export default function AboutUs() {
       {
         key: '1',
         label: 'Our Mission',
-        children: 'Description of our mission...'
+        children: 'The foundation aims to enhance and improve the quality of life for individuals and families in vulnerable situations, preserving their human dignity through sustainable development programs. '
       },
       {
         key: '2',
         label: 'Our Values',
-        children: 'Description of our values...'
+        children: 'Acting with kindness and mutual assistance towards vulnerable individuals, Ensuring transparent and responsible management of resources, Seeking innovation and excellence in program implementation, Working collaboratively with various stakeholders to maximize the impact of actions.'
       },
       {
         key: '3',
         label: 'Our Impact',
-        children: 'Description极 of our impact...'
+        children: 'Since its inception, the foundation has actively contributed to improving the living conditions of individuals facing poverty, precariousness, or social exclusion.'
       }
     ]
 
@@ -48,6 +49,20 @@ export default function AboutUs() {
             </p>
             <Collapse accordion className="bg-blue-200" items={collapseItems} />
           </div>
+          <div className="flex-1">
+            <div className="w-full h-full bg-gray-300 rounded-lg overflow-hidden">
+              <video 
+                className="w-full h-full object-cover"
+                controls
+                autoPlay
+                muted
+                loop
+              >
+                <source src="/videos/about-us.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     )
@@ -55,24 +70,62 @@ export default function AboutUs() {
 
   // Vision component
   const Vision = () => (
-    <div className="bg-light-blue-200 p-10 min极-h-screen flex flex-col md:flex-row">
-      <div className="flex-1">
-        <h2 className="text-2xl font-bold mb-4">Our Vision</h2>
-        <p className="text-base mb-8">
-          Our vision is to empower communities and create sustainable solutions for a better future.
-        </p>
+    <div className="bg-blue-200 p-10 min-h-fit">
+      <div className="flex flex-col md:flex-row-reverse gap-8">
+        <div className="flex-[2]">
+          <h2 className="text-2xl text-blue-800 font-bold mb-4">Our Vision</h2>
+          <p className="text-base mb-8">
+          create a world where every individual, regardless of where they live, has access to essential resources to thrive. They aim to empower the most vulnerable communities, especially those in isolated rural areas, by providing sustainable solutions that improve their quality of life. The foundation's focus is on bringing about tangible, positive change and fostering community development to ensure long-term benefits for those in need.
+          </p>
+        </div>
+        <div className="flex-1 max-w-[500px]">
+          <div className="w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
+            <Carousel autoplay>
+              <div>
+                <img src="/images/vision1.jpg" alt="Vision 1" className="w-full h-96 object-cover" />
+              </div>
+              <div>
+                <img src="/images/vision2.jpg" alt="Vision 2" className="w-full h-96 object-cover" />
+              </div>
+              <div>
+                <img src="/images/vision3.jpg" alt="Vision 3" className="w-full h-96 object-cover" />
+              </div>
+            </Carousel>
+          </div>
+        </div>
       </div>
     </div>
   )
 
   // Goal component
   const Goal = () => (
-    <div className="bg-light-blue-200 p-10 min-h-screen flex flex-col md:flex-row">
-      <div className="flex-1">
-        <h2 className="text-2xl font-bold mb-4">Our Goals</h2>
-        <p className="text-base mb-8">
-          Our mission is to create a positive impact in the community through various initiatives and projects.
-        </p>
+    <div className="bg-green-200 p-10 min-h-fit">
+      <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex-[2]">
+          <h2 className="text-2xl text-green-800 font-bold mb-8">Our Goals</h2>
+          <ul className='flex flex-col gap-4'>
+            <li><strong>Improving Living Conditions:</strong> Elevating the standard of living for families and individuals in precarious situations.</li>
+            <li><strong>Socio-Economic Integration:</strong> Facilitating the integration of beneficiaries into the socio-economic fabric of society.</li>
+            <li><strong>Supporting Social and Environmental Projects:</strong> Creating and supporting projects with a positive social and environmental impact.</li>
+            <li><strong>Enhancing Skills:</strong> Developing the skills and capacities of beneficiaries to ensure the sustainability and long-term impact of programs.</li>
+            <li><strong>Promoting Development Culture:</strong> Promoting sustainable development and community participation.</li>
+          </ul>
+        </div>
+        <div className="flex-1 max-w-[500px]">
+          <div className="w-full h-96 bg-gray-200 rounded-lg overflow-hidden">
+            <Carousel autoplay>
+              <div>
+                <img src="/images/goal1.jpg" alt="Goal 1" className="w-full h-96 object-cover" />
+              </div>
+              <div>
+                <img src="/images/goal2.jpg" alt="Goal 2" className="w-full h-96 object-cover" />
+              </div>
+              <div>
+                <img src="/images/goal3.jpg" alt="Goal 3" className="w-full h-96 object-cover" />
+              </div>
+            </Carousel>
+          </div>
+        </div>
       </div>
     </div>
   )
@@ -80,37 +133,37 @@ export default function AboutUs() {
   // BureauNational component
   const BureauNational = () => {
     const members = [
-      { image: '/fondateurs/F1.jpeg', name: 'Name 1', job: 'Job 1' },
-      { image: '/fondateurs/F2.jpeg', name: 'Name 2', job: 'Job 2' },
-      { image: '/fondateurs/F3.jpeg', name: 'Name 3', job: 'Job 3' },
-      { image: '/fondateurs/F5.jpeg', name: 'Name 4', job: 'Job 4' },
-      { image: '/fondateurs/F6.jpeg', name: 'Name 5', job: 'Job 5' },
-      { image: '/fondateurs/F8.jpeg', name: 'Name 6', job: 'Job 6' },
-      { image: '/fondateurs/F11.jpeg', name: 'Name 7', job: 'Job 7' },
-      { image: '/fondateurs/F12.jpeg', name: 'Name 8', job: 'Job 8' },
-      { image: '/fondateurs/F1.jpeg', name: 'Name 9', job: 'Job 9' },
-      { image: '/fondateurs/F2.jpeg', name: 'Name 10', job: 'Job 10' },
-      { image: '/fondateurs/F3.jpeg', name: 'Name 11', job: 'Job 11' },
-      { image: '/fondateurs/F5.jpeg', name: 'Name 12', job: 'Job 12' },
+      { image: '/fondateurs/F1.png', name: 'Ibrahim Talwi', job: 'National President' },
+      { image: '/fondateurs/F2.png', name: 'Leila Fajah', job: 'Vice President in charge of Monitoring, Planning, and Auditing' },
+      { image: '/fondateurs/F3.png', name: 'Jamal Grondi', job: 'Director of Administrative Affairs' },
+      { image: '/fondateurs/F4.png', name: 'Karim Hamidouch', job: 'Deputy Director of Administrative Affairs' },
+      { image: '/fondateurs/F5.png', name: 'Mbarak Kajout', job: 'Director of Financial Affairs and Properties' },
+      { image: '/fondateurs/F6.png', name: 'Nuruddin Orini', job: 'Deputy Director of Financial Affairs and Properties' },
+      { image: '/fondateurs/F7.png', name: 'Rachida Badrkhan', job: 'Director of Training and Human Resources Development' },
+      { image: '/fondateurs/F8.png', name: 'Amin Toufik', job: 'Director of Communication and Social Marketing' },
+      { image: '/fondateurs/F9.png', name: 'Abdel Latif Rachdi', job: 'Director of Welfare and Relief Services Sector' },
+      { image: '/fondateurs/F10.png', name: 'Abdel Ali Oudhghiri', job: 'Deputy Director of Welfare and Relief Services Sector' },
+      { image: '/fondateurs/F11.png', name: 'Abdullah Aboutan', job: 'Director of Social Development Sector' },
+      { image: '/fondateurs/F12.png', name: 'Nuruddin Benheiba', job: 'Deputy Director of Social Development Sector' },
     ]
 
     const [hoveredIndex, setHoveredIndex] = useState(null)
 
     return (
-      <div className="w-4/5 mx-auto bg-lightblue">
+      <div className="w-4/5 mx-auto m-4">
         <h2 className="text-center">Bureau National</h2>
         <div className="grid grid-cols-3 gap-4 md:grid-cols-6">
           {members.map((member, index) => (
             <div
               key={index}
-              className={`relative rounded-lg overflow-hidden opacity-80 hover:opacity-100 transition-opacity duration-500  ${index % 2 === 0 ? 'bg-lightblue' : 'bg-lightgreen'}`}
+              className={`relative rounded-lg overflow-hidden transition-opacity duration-500 cursor-pointer  ${index % 2 === 0 ? 'bg-lightblue' : 'bg-lightgreen'}`}
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(null)}
             >
-              <img alt={member.name} src={member.image} className="w-full h-auto " />
+              <img alt={member.name} src={member.image} className={`w-full h-auto ${hoveredIndex === index ? 'opacity-50':'opacity-100'}`} />
               <div className={`absolute inset-0 flex flex-col items-center justify-center transition-transform duration-300 transform ${hoveredIndex === index ? 'translate-x-0' : '-translate-x-full'}`}>
-                <h3 className={`text-white ${hoveredIndex === index ? 'text-base md:text-lg' : 'text-sm'}`}>{hoveredIndex === index ? member.name : ''}</h3>
-                <p className={`text-white ${hoveredIndex === index ? 'text-sm md:text-base' : 'text-xs'}`}>{hoveredIndex === index ? member.job : ''}</p>
+                <h3 className={`text-blue-800 font-bold text-center ${hoveredIndex === index ? 'text-base md:text-lg' : 'text-sm'}`}>{hoveredIndex === index ? member.name : ''}</h3>
+                <p className={`text-green-700 text-center ${hoveredIndex === index ? 'text-sm md:text-base' : 'text-xs'}`}>{hoveredIndex === index ? member.job : ''}</p>
               </div>
             </div>
           ))}
@@ -161,7 +214,7 @@ export default function AboutUs() {
       <div className='section-border'>
         <Goal />
       </div>
-      <div className='section-border'>
+      <div className='section-border bg-blue-200'>
         <BureauNational />
       </div>
       <div className='section-border'>

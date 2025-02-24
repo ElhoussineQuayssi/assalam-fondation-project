@@ -162,6 +162,7 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$run
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$layout$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Layout$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/layout/index.js [ssr] (ecmascript) <export default as Layout>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$typography$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Typography$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/typography/index.js [ssr] (ecmascript) <export default as Typography>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/menu/index.js [ssr] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/dropdown/index.js [ssr] (ecmascript) <export default as Dropdown>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/row/index.js [ssr] (ecmascript) <export default as Row>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/col/index.js [ssr] (ecmascript) <export default as Col>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/space/index.js [ssr] (ecmascript) <locals> <export default as Space>");
@@ -231,17 +232,94 @@ const App = ({ children, id })=>{
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
-                                    href: "/projects",
-                                    style: {
-                                        color: "blue",
-                                        fontWeight: 'bold'
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$dropdown$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Dropdown$3e$__["Dropdown"], {
+                                    menu: {
+                                        items: [
+                                            {
+                                                key: '1',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/Kafala",
+                                                    children: "Kafala"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 39,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            },
+                                            {
+                                                key: '2',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/NadiAssalam",
+                                                    children: "Nadi Assalam"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 43,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            },
+                                            {
+                                                key: '3',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/RayhanatAssalam",
+                                                    children: "Rayhanat Assalam"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 47,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            },
+                                            {
+                                                key: '4',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/Imtiaz",
+                                                    children: "Imtiaz"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 51,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            },
+                                            {
+                                                key: '5',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/centerHimaya",
+                                                    children: "Centre Himaya"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 55,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            },
+                                            {
+                                                key: '6',
+                                                label: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                                    href: "/projects/FataerAlBaraka",
+                                                    children: "Fataer AlBaraka"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Layout.js",
+                                                    lineNumber: 59,
+                                                    columnNumber: 28
+                                                }, void 0)
+                                            }
+                                        ]
                                     },
-                                    children: "Projects"
+                                    placement: "bottom",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
+                                        href: "/projects",
+                                        style: {
+                                            color: "blue",
+                                            fontWeight: 'bold'
+                                        },
+                                        children: "Projects"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Layout.js",
+                                        lineNumber: 65,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 33,
-                                    columnNumber: 30
+                                    lineNumber: 34,
+                                    columnNumber: 13
                                 }, this)
                             }, "2", false, {
                                 fileName: "[project]/components/Layout.js",
@@ -258,12 +336,12 @@ const App = ({ children, id })=>{
                                     children: "News"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 34,
+                                    lineNumber: 68,
                                     columnNumber: 30
                                 }, this)
                             }, "3", false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 34,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$menu$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"].Item, {
@@ -276,12 +354,12 @@ const App = ({ children, id })=>{
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Layout.js",
-                                    lineNumber: 35,
+                                    lineNumber: 69,
                                     columnNumber: 30
                                 }, this)
                             }, "4", false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 35,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -310,12 +388,12 @@ const App = ({ children, id })=>{
                     children: children
                 }, void 0, false, {
                     fileName: "[project]/components/Layout.js",
-                    lineNumber: 43,
+                    lineNumber: 77,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Layout.js",
-                lineNumber: 38,
+                lineNumber: 72,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Footer, {
@@ -336,16 +414,21 @@ const App = ({ children, id })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 62,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, this),
                     " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$row$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Row$3e$__["Row"], {
-                        justify: "space-between",
-                        align: "top",
+                        gutter: [
+                            16,
+                            32
+                        ],
+                        className: "px-32 pb-8 w-full justify-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
-                                span: 8,
+                                xs: 24,
+                                sm: 12,
+                                md: 8,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Title, {
                                         level: 4,
@@ -355,7 +438,7 @@ const App = ({ children, id })=>{
                                         children: "Links"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 65,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
@@ -364,61 +447,63 @@ const App = ({ children, id })=>{
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                                 href: "/about",
                                                 style: {
-                                                    fontSize: '18px'
+                                                    fontSize: '15px'
                                                 },
                                                 children: "About Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 67,
+                                                lineNumber: 101,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                                 href: "/projects",
                                                 style: {
-                                                    fontSize: '18px'
+                                                    fontSize: '15px'
                                                 },
                                                 children: "Projects"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 68,
+                                                lineNumber: 102,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                                 href: "/news",
                                                 style: {
-                                                    fontSize: '18px'
+                                                    fontSize: '15px'
                                                 },
                                                 children: "News"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 69,
+                                                lineNumber: 103,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                                                 href: "/contact",
                                                 style: {
-                                                    fontSize: '18px'
+                                                    fontSize: '15px'
                                                 },
                                                 children: "Contact"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 70,
+                                                lineNumber: 104,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 66,
+                                        lineNumber: 100,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 64,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
-                                span: 8,
+                                xs: 24,
+                                sm: 12,
+                                md: 8,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Title, {
                                         level: 4,
@@ -428,47 +513,81 @@ const App = ({ children, id })=>{
                                         children: "Infos"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 74,
+                                        lineNumber: 108,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: '18px'
+                                            fontSize: '15px',
+                                            marginBottom: '10px'
                                         },
-                                        children: "Address: [Your address]"
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("b", {
+                                                children: "Address:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 109,
+                                                columnNumber: 65
+                                            }, this),
+                                            " 22nd, 2nd Floor, Building 83, Hassan II Street, Rabat, Morocco"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 75,
+                                        lineNumber: 109,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: '18px'
+                                            fontSize: '15px',
+                                            marginBottom: '10px'
                                         },
-                                        children: "Phone: [Your phone number]"
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("b", {
+                                                children: "Phone:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 110,
+                                                columnNumber: 65
+                                            }, this),
+                                            " 0537-70-23-46"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 76,
+                                        lineNumber: 110,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                         style: {
-                                            fontSize: '18px'
+                                            fontSize: '15px'
                                         },
-                                        children: "Email: [Your email]"
-                                    }, void 0, false, {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("b", {
+                                                children: "Email:"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Layout.js",
+                                                lineNumber: 111,
+                                                columnNumber: 45
+                                            }, this),
+                                            " bn.assalam@gmail.com"
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 77,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 73,
+                                lineNumber: 107,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$col$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Col$3e$__["Col"], {
-                                span: 8,
+                                xs: 24,
+                                sm: 24,
+                                md: 8,
+                                style: {
+                                    textAlign: 'center'
+                                },
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Title, {
                                         level: 4,
@@ -478,7 +597,7 @@ const App = ({ children, id })=>{
                                         children: "Social Media"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 80,
+                                        lineNumber: 114,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$space$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Space$3e$__["Space"], {
@@ -496,14 +615,14 @@ const App = ({ children, id })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 83,
+                                                        lineNumber: 117,
                                                         columnNumber: 17
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 82,
+                                                lineNumber: 116,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -518,14 +637,14 @@ const App = ({ children, id })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 86,
+                                                        lineNumber: 120,
                                                         columnNumber: 17
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 85,
+                                                lineNumber: 119,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -540,14 +659,14 @@ const App = ({ children, id })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 89,
+                                                        lineNumber: 123,
                                                         columnNumber: 17
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 88,
+                                                lineNumber: 122,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
@@ -562,37 +681,37 @@ const App = ({ children, id })=>{
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Layout.js",
-                                                        lineNumber: 92,
+                                                        lineNumber: 126,
                                                         columnNumber: 17
                                                     }, this),
                                                     " "
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Layout.js",
-                                                lineNumber: 91,
+                                                lineNumber: 125,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Layout.js",
-                                        lineNumber: 81,
+                                        lineNumber: 115,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 79,
+                                lineNumber: 113,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 63,
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                         style: {
-                            margin: '20px 30px',
+                            margin: '10px 30px 0px 30px',
                             backgroundColor: 'lightgreen',
                             color: 'green',
                             display: 'flex',
@@ -603,9 +722,6 @@ const App = ({ children, id })=>{
                         },
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                style: {
-                                    fontSize: '18px'
-                                },
                                 children: [
                                     "© ",
                                     new Date().getFullYear(),
@@ -613,30 +729,28 @@ const App = ({ children, id })=>{
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 98,
+                                lineNumber: 133,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
-                                style: {
-                                    fontSize: '16px'
-                                },
+                                className: "hidden md:block",
                                 children: "Created by Quayssi"
                             }, void 0, false, {
                                 fileName: "[project]/components/Layout.js",
-                                lineNumber: 99,
+                                lineNumber: 134,
                                 columnNumber: 11
                             }, this),
                             " "
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Layout.js",
-                        lineNumber: 97,
+                        lineNumber: 132,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Layout.js",
-                lineNumber: 54,
+                lineNumber: 88,
                 columnNumber: 7
             }, this)
         ]
@@ -687,11 +801,14 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Layout$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Layout.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/router.js [ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$card$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Card$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/card/index.js [ssr] (ecmascript) <export default as Card>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$date$2d$fns$2f$format$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_import__("[project]/node_modules/date-fns/format.js [ssr] (ecmascript) <locals>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__ = __turbopack_import__("[project]/node_modules/antd/es/button/index.js [ssr] (ecmascript) <locals> <export default as Button>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/users.js [ssr] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$plus$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UserPlus$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/user-plus.js [ssr] (ecmascript) <export default as UserPlus>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.js [ssr] (ecmascript) <export default as MapPin>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/award.js [ssr] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/star.js [ssr] (ecmascript) <export default as Star>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$group$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Group$3e$__ = __turbopack_import__("[project]/node_modules/lucide-react/dist/esm/icons/group.js [ssr] (ecmascript) <export default as Group>");
 "use client";
+;
 ;
 ;
 ;
@@ -707,7 +824,7 @@ function Home() {
     const Hero = ()=>{
         const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
         const handleButtonClick = ()=>{
-            router.push('/about');
+            router.push('/aboutus');
         };
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
             className: "hero",
@@ -737,18 +854,21 @@ function Home() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 36,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
                     style: {
                         zIndex: 2,
-                        marginBottom: '20px'
+                        marginBottom: '20px',
+                        fontWeight: 'bold',
+                        fontSize: '2.5rem',
+                        color: "lightblue"
                     },
                     children: "Assalam Fondation"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 45,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -759,7 +879,7 @@ function Home() {
                     children: "Transforming Lives, Building Futures: The assalam foundation's commitment to social development Casablanca anfa "
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 46,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
@@ -771,13 +891,13 @@ function Home() {
                     children: "About Us"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 47,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 24,
+            lineNumber: 25,
             columnNumber: 7
         }, this);
     };
@@ -791,12 +911,14 @@ function Home() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                     style: {
-                        color: 'blue'
+                        color: 'blue',
+                        fontWeight: 'bold',
+                        fontSize: '2rem'
                     },
                     children: "About Us"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 57,
+                    lineNumber: 58,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -806,26 +928,27 @@ function Home() {
                     },
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "description",
+                            className: "description text-lg",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
+                                    className: "pb-2",
                                     children: "Welcome to Assalam Fondation! We are dedicated to making a positive impact in our community through various initiatives and programs. Our mission is to empower individuals and foster a sense of belonging and support."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 60,
+                                    lineNumber: 61,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                                     children: "We believe in the power of collaboration and strive to work alongside community members to create sustainable solutions that address the needs of our society."
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 63,
+                                    lineNumber: 64,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 59,
+                            lineNumber: 60,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -836,24 +959,24 @@ function Home() {
                                 src: "https://www.youtube.com/watch?v=THYvJgllb-o"
                             }, void 0, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 68,
+                                lineNumber: 69,
                                 columnNumber: 11
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 67,
+                            lineNumber: 68,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 58,
+                    lineNumber: 59,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 56,
+            lineNumber: 57,
             columnNumber: 5
         }, this);
     // Projects component
@@ -886,7 +1009,7 @@ function Home() {
                 link: "centerHimaya"
             },
             {
-                title: 'Fataer AlBaraka极',
+                title: 'Fataer AlBaraka',
                 description: 'Description of OIO project.',
                 link: "FataerAlBaraka"
             }
@@ -899,12 +1022,14 @@ function Home() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
                     style: {
-                        color: 'green'
+                        color: 'green',
+                        fontWeight: 'bold',
+                        fontSize: '2rem'
                     },
                     children: "Our Projects"
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 92,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -924,28 +1049,28 @@ function Home() {
                                     children: item.title
                                 }, void 0, false, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 101,
+                                    lineNumber: 102,
                                     columnNumber: 17
                                 }, this)
                             }, index, false, {
                                 fileName: "[project]/pages/index.js",
-                                lineNumber: 96,
+                                lineNumber: 97,
                                 columnNumber: 15
                             }, this)
                         }, index, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 95,
+                            lineNumber: 96,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 93,
+                    lineNumber: 94,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 91,
+            lineNumber: 92,
             columnNumber: 7
         }, this);
     };
@@ -975,11 +1100,11 @@ function Home() {
         }, []);
         if (loading) {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "text-center py-8",
+                className: "text-center py-8 ",
                 children: "Loading articles..."
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 138,
+                lineNumber: 139,
                 columnNumber: 14
             }, this);
         }
@@ -992,22 +1117,25 @@ function Home() {
                 ]
             }, void 0, true, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 142,
+                lineNumber: 143,
                 columnNumber: 14
             }, this);
         }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("section", {
-            className: "py-16 px-4 bg-gray-50",
+            className: "py-8 px-4 bg-gray-50",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "text-center mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h1", {
-                            className: "text-4xl font-semibold text-blue-600",
+                            className: "text-4xl font-bold text-blue-600",
+                            style: {
+                                fontSize: '2rem'
+                            },
                             children: "Latest News and Updates"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 148,
+                            lineNumber: 149,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1015,24 +1143,27 @@ function Home() {
                             children: "Stay up-to-date with our latest projects and initiatives."
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 149,
+                            lineNumber: 150,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 147,
+                    lineNumber: 148,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
                     className: "mb-12",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl font-sem极ibold text-blue-600 mb-4",
+                            className: "text-3xl font-bold text-blue-600 mb-4",
+                            style: {
+                                fontSize: '1.8rem'
+                            },
                             children: "All News"
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 153,
+                            lineNumber: 154,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1044,17 +1175,17 @@ function Home() {
                                         src: news.image ? `/uploads/${news.image}` : '/default-news.jpg'
                                     }, void 0, false, {
                                         fileName: "[project]/pages/index.js",
-                                        lineNumber: 159,
+                                        lineNumber: 160,
                                         columnNumber: 24
                                     }, void 0),
                                     className: "shadow-lg rounded-lg",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Meta, {
                                             title: news.title,
-                                            description: `${news.date} | ${news.description}`
+                                            description: `${(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$date$2d$fns$2f$format$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["format"])(news.updatedAt, "yyyy-MM-dd")} | ${Object.values(news.tags).join(' ,')}`
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 162,
+                                            lineNumber: 163,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$antd$2f$es$2f$button$2f$index$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__$3c$export__default__as__Button$3e$__["Button"], {
@@ -1064,24 +1195,24 @@ function Home() {
                                             children: "Read More"
                                         }, void 0, false, {
                                             fileName: "[project]/pages/index.js",
-                                            lineNumber: 163,
+                                            lineNumber: 164,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, news.id, true, {
                                     fileName: "[project]/pages/index.js",
-                                    lineNumber: 156,
+                                    lineNumber: 157,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 154,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 152,
+                    lineNumber: 153,
                     columnNumber: 9
                 }, this),
                 newsData.length > select && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1092,18 +1223,18 @@ function Home() {
                         children: "Load More"
                     }, void 0, false, {
                         fileName: "[project]/pages/index.js",
-                        lineNumber: 171,
+                        lineNumber: 172,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 170,
+                    lineNumber: 171,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 146,
+            lineNumber: 147,
             columnNumber: 7
         }, this);
     };
@@ -1114,9 +1245,9 @@ function Home() {
         }, []);
         const squares = [
             {
-                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {}, void 0, false, {
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2d$plus$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__UserPlus$3e$__["UserPlus"], {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 185,
+                    lineNumber: 186,
                     columnNumber: 15
                 }, this),
                 number: '+300',
@@ -1125,25 +1256,25 @@ function Home() {
             {
                 icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 186,
+                    lineNumber: 187,
                     columnNumber: 15
                 }, this),
                 number: '+35',
                 text: 'Branches of the Foundation'
             },
             {
-                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {}, void 0, false, {
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 187,
+                    lineNumber: 188,
                     columnNumber: 15
                 }, this),
                 number: '90%',
                 text: 'Completed Programs'
             },
             {
-                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {}, void 0, false, {
+                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$group$2e$js__$5b$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Group$3e$__["Group"], {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 188,
+                    lineNumber: 189,
                     columnNumber: 15
                 }, this),
                 number: '+450',
@@ -1159,7 +1290,7 @@ function Home() {
                 height: ""
             },
             children: squares.map((square, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                    className: "square",
+                    className: "square cursor-pointer",
                     "data-aos": "fade-up",
                     style: {
                         margin: '10px',
@@ -1170,26 +1301,15 @@ function Home() {
                         backgroundColor: "#ebebeb"
                     },
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                            className: "icon flex justify-center p-5",
-                            style: {
-                                fontSize: '38px',
-                                color: 'lightgreen'
-                            },
-                            children: square.icon
-                        }, void 0, false, {
-                            fileName: "[project]/pages/index.js",
-                            lineNumber: 195,
-                            columnNumber: 13
-                        }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
                             style: {
                                 color: 'darkblue'
                             },
+                            className: "text-md py-2",
                             children: square.number
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 196,
+                            lineNumber: 199,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("p", {
@@ -1200,18 +1320,18 @@ function Home() {
                             children: square.text
                         }, void 0, false, {
                             fileName: "[project]/pages/index.js",
-                            lineNumber: 197,
+                            lineNumber: 200,
                             columnNumber: 13
                         }, this)
                     ]
                 }, index, true, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 194,
+                    lineNumber: 198,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/pages/index.js",
-            lineNumber: 192,
+            lineNumber: 196,
             columnNumber: 7
         }, this);
     };
@@ -1223,12 +1343,12 @@ function Home() {
                 className: "section-border",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Hero, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 206,
+                    lineNumber: 209,
                     columnNumber: 49
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 206,
+                lineNumber: 209,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1239,12 +1359,12 @@ function Home() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(AboutUs, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 207,
+                    lineNumber: 210,
                     columnNumber: 92
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 207,
+                lineNumber: 210,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1255,12 +1375,12 @@ function Home() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(Projects, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 208,
+                    lineNumber: 211,
                     columnNumber: 93
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 208,
+                lineNumber: 211,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1271,12 +1391,12 @@ function Home() {
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(News, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 209,
+                    lineNumber: 212,
                     columnNumber: 88
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 209,
+                lineNumber: 212,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
@@ -1284,18 +1404,18 @@ function Home() {
                 className: "section-border",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(BarComponent, {}, void 0, false, {
                     fileName: "[project]/pages/index.js",
-                    lineNumber: 210,
+                    lineNumber: 213,
                     columnNumber: 58
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/pages/index.js",
-                lineNumber: 210,
+                lineNumber: 213,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/pages/index.js",
-        lineNumber: 205,
+        lineNumber: 208,
         columnNumber: 5
     }, this);
 }

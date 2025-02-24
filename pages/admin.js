@@ -180,7 +180,7 @@ export default function AdminDashboard() {
       title: "Tags",
       dataIndex: "tags",
       key: "tags",
-      render: (tags) => tags.join(", "),
+      render: (tags) => tags,
     },
     {
       title: "Actions",

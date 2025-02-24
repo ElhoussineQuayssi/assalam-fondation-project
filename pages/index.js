@@ -3,10 +3,11 @@
 import { Card, Button } from "antd"
 import { SearchOutlined } from "@ant-design/icons"
 import Link from "next/link"
-import { Users, MapPin, Award, Users as UserIcon } from "lucide-react"
+import { UserPlus, MapPin, Star, Group } from "lucide-react"
 import AOS from "aos"
 import { useEffect, useState } from "react"
 import App from "@/components/Layout"
+import { format } from "date-fns"
 import { useRouter } from "next/router"
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
     const router = useRouter()
 
     const handleButtonClick = () => {
-      router.push('/about')
+      router.push('/aboutus')
     }
 
     return (
@@ -42,7 +43,7 @@ export default function Home() {
           backgroundColor: 'rgba(0, 0, 0, 0.5)',
           zIndex: 1
         }} />
-        <h1 style={{ zIndex: 2, marginBottom: '20px' }}>Assalam Fondation</h1>
+        <h1 style={{ zIndex: 2, marginBottom: '20px', fontWeight: 'bold', fontSize: '2.5rem',color:"lightblue" }}>Assalam Fondation</h1>
         <p style={{ zIndex: 2, marginBottom: '20px' }}>Transforming Lives, Building Futures: The assalam foundation's commitment to social development Casablanca anfa </p>
         <button onClick={handleButtonClick} className="hero-button" style={{ zIndex: 2 }}>
           About Us
@@ -54,10 +55,10 @@ export default function Home() {
   // AboutUs component
   const AboutUs = () => (
     <div className="about-us" style={{ height: '90vh',padding: '20px' }}>
-      <h2 style={{ color: 'blue' }}>About Us</h2>
+      <h2 style={{ color: 'blue', fontWeight: 'bold', fontSize: '2rem' }}>About Us</h2>
       <div className="about-us-content" style={{height: '100%'}}>
-        <div className="description">
-          <p>
+        <div className="description text-lg">
+          <p className="pb-2">
             Welcome to Assalam Fondation! We are dedicated to making a positive impact in our community through various initiatives and programs. Our mission is to empower individuals and foster a sense of belonging and support.
           </p>
           <p>
@@ -84,12 +85,12 @@ export default function Home() {
       { title: 'Rayahant Assalam', description: 'Description of Rayahant Assalam project.',link: "RayhanatAssalam" },
       { title: 'Imtiaz', description: 'Description of Imtiaz project.',link:"Imtiaz" },
       { title: 'Centre Himaya', description: 'Description of Centre Himaya project.',link:"centerHimaya" },
-      { title: 'Fataer AlBaraka极', description: 'Description of OIO project.',link:"FataerAlBaraka" },
+      { title: 'Fataer AlBaraka', description: 'Description of OIO project.',link:"FataerAlBaraka" },
     ]
 
     return (
       <div className="projects" style={{ backgroundImage: backgroundImage }}>
-        <h2 style={{ color: 'green' }}>Our Projects</h2>
+        <h2 style={{ color: 'green', fontWeight: 'bold', fontSize: '2rem' }}>Our Projects</h2>
         <div className="project-cards">
           {projectItems.map((item, index) => (
             <Link href={`/projects/${item.link}`} style={{height: '100%'}} key={index}>
@@ -135,7 +136,7 @@ export default function Home() {
     }, [])
 
     if (loading) {
-      return <div className="text-center py-8">Loading articles...</div>
+      return <div className="text-center py-8 ">Loading articles...</div>
     }
 
     if (error) {
@@ -143,14 +144,14 @@ export default function Home() {
     }
 
     return (
-      <section className="py-16 px-4 bg-gray-50">
+      <section className="py-8 px-4 bg-gray-50">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-semibold text-blue-600">Latest News and Updates</h1>
+          <h1 className="text-4xl font-bold text-blue-600" style={{ fontSize: '2rem' }}>Latest News and Updates</h1>
           <p className="text-xl text-gray-600">Stay up-to-date with our latest projects and initiatives.</p>
         </div>
 
         <div className="mb-12">
-          <h2 className="text-3xl font-sem极ibold text-blue-600 mb-4">All News</h2>
+          <h2 className="text-3xl font-bold text-blue-600 mb-4" style={{ fontSize: '1.8rem' }}>All News</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {newsData.slice(0, select).map(news => (
               <Card 
@@ -159,7 +160,7 @@ export default function Home() {
                 cover={<img alt="example" src={news.image ? `/uploads/${news.image}` : '/default-news.jpg'} />}
                 className="shadow-lg rounded-lg"
               >
-                <Meta title={news.title} description={`${news.date} | ${news.description}`} />
+                <Meta title={news.title} description={`${format(news.updatedAt,"yyyy-MM-dd")} | ${Object.values(news.tags).join(' ,')}`} />
                 <Button href={`/news/${news.id}`} className="mt-4" type="primary">Read More</Button>
               </Card>
             ))}
@@ -182,18 +183,20 @@ export default function Home() {
     }, [])
 
     const squares = [
-      { icon: <UserIcon />, number: '+300', text: 'Volunteer with the Foundation' },
+      { icon: <UserPlus />, number: '+300', text: 'Volunteer with the Foundation' },
       { icon: <MapPin />, number:'+35', text: 'Branches of the Foundation' },
-      { icon: <Award />, number:'90%', text: 'Completed Programs' },
-      { icon: <Users />, number: '+450' ,text: 'Beneficiary Family' },
+      { icon: <Star />, number:'90%', text: 'Completed Programs' },
+      { icon: <Group />, number: '+450' ,text: 'Beneficiary Family' },
     ]
+
+
+
 
     return (
       <div className="bar-component" style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap', height: "" }}>
         {squares.map((square, index) => (
-          <div key={index} className="square" data-aos="fade-up" style={{ margin: '10px', textAlign: 'center', flex: '1 1 200px', borderRadius: '8px', padding: '20px', backgroundColor: "#ebebeb" }}>
-            <div className="icon flex justify-center p-5" style={{ fontSize: '38px', color: 'lightgreen' }}>{square.icon}</div>
-            <p style={{ color: 'darkblue' }}>{square.number}</p>
+          <div key={index} className="square cursor-pointer" data-aos="fade-up" style={{ margin: '10px', textAlign: 'center', flex: '1 1 200px', borderRadius: '8px', padding: '20px', backgroundColor: "#ebebeb" }}>
+            <p style={{ color: 'darkblue' }} className="text-md py-2">{square.number}</p>
             <p style={{ fontWeight: 'bold', color: 'darkblue' }}>{square.text}</p>
           </div>
         ))}

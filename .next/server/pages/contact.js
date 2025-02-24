@@ -1,11 +1,11 @@
 const CHUNK_PUBLIC_PATH = "server/pages/contact.js";
 const runtime = require("../chunks/ssr/[turbopack]_runtime.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_next_0e539e._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_antd_es_eb6908._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_@ant-design_cssinjs_es_7c24ca._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_antd_es_27bf92._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_@ant-design_cssinjs_es_2b6860._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_rc-field-form_es_044052._.js");
 runtime.loadChunk("server/chunks/ssr/node_modules_rc-menu_es_0cf1ae._.js");
-runtime.loadChunk("server/chunks/ssr/node_modules_4dd4be._.js");
-runtime.loadChunk("server/chunks/ssr/[root of the server]__5d09cd._.js");
+runtime.loadChunk("server/chunks/ssr/node_modules_42cb39._.js");
+runtime.loadChunk("server/chunks/ssr/[root of the server]__b41c56._.js");
 runtime.loadChunk("server/chunks/ssr/styles_globals_ff5908.css");
 module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/pages.js { INNER_PAGE => \"[project]/pages/contact.js [ssr] (ecmascript)\", INNER_DOCUMENT => \"[project]/pages/_document.js [ssr] (ecmascript)\", INNER_APP => \"[project]/pages/_app.js [ssr] (ecmascript)\" } [ssr] (ecmascript)", CHUNK_PUBLIC_PATH).exports;
